@@ -1,0 +1,130 @@
+
+react native
+react组件的生命周期
+componentWillMount
+当组件要被挂载时这个函数被调用。这意味着我们可以在此运行组件功能必须的代码。为由于 render 在组件生命周期里被多次调用，我们一般会把只需要执行一次的代码放在这里，比如 XHR 请求。
+服务器端和客户端都只调用一次，在初始化渲染执行之前立刻调用。如果在这个方法内调用 setState，render() 将会感知到更新后的 state，将会执行仅一次，尽管 state 改变了。
+componentDidMount
+一旦你的组件已经运行了 render 函数，并实际将组件渲染到了 DOM 中，componentDidMount 就会被调用。我们可以在这儿做任何需要做的 DOM 操作，已经任何需要依赖于组件已经实际存在于 DOM 之后才能做的事情, 例如渲染一个图表。你可以通过调用 this.getDOMNode 在内部访问到 DOM 节点。
+
+
+componentWillUnmount
+如果你准备吧组件从 DOM 移除时，这个函数将会被调用。这让我们可以在组件背后进行清理，比如移除任何我们已经绑定的事件监听器。如果我们没有在自身背后做清理，而当其中一个事件被触发时，就会尝试去计算一个没有载入的组件，React 就会抛出一个错误。
+
+
+
+1.listview
+Q1:listview外层有嵌套时，外层的view必须设置style：flex：1，否则无法滑动list view
+Q2:listview 如果设置了renderFooter属性，那么再设置onEndReached，会造成onEndReached执行两次，
+Q3:listview变成gridview ，需要设置contentContainerStyle={styles.list}
+中 flexDirection: 'row’,
+
+Q4:listview如何分栏；这里重点是修改new ListView.DataSource
+
+添加：sectionHeaderHasChanged: (s1, s2) => s1 !== s2,
+添加数据的时候dataSource: this.state.dataSource.cloneWithRowsAndSections(dataBlob, sectionIDs, rowIDs),
+其中datablob＝{},这个是数据类型，这个数据是datablob［key］＝数据；
+	这里数据分别为section的内容和row的内容
+sectionIDs=[],array的size为要分组的个数，里面的内容就是分组后group从datablob中取数据的key
+rowIDs=[]，array为二维数组，每一组的的size为分组后的每row从datablob中去数据的key
+所以我们要对数据做处理：
+var dataBlob = {};
+    var sectionIDs = [];
+    var rowIDs = [];
+    rowIDs[0]=[];
+    rowIDs[1]=[];
+  var sectionName1 = '工商出品';
+      sectionIDs.push(sectionName1);
+      dataBlob[sectionName1] = sectionName1;
+ var sectionName2 = '第三方出品' ;
+ sectionIDs.push(sectionName2);
+ dataBlob[sectionName2]=sectionName2;
+for(var ii=0;ii<data.length;ii++)
+{
+  let temp=data[ii];
+  let rowName=temp.funTag;
+  if(temp.h5Flag==='1')
+  {
+
+    
+    rowIDs[0].push(rowName);
+    dataBlob[rowName] = temp;
+  }else{
+
+     rowIDs[1].push(rowName);
+    dataBlob[rowName] = temp;
+  }
+
+ref属性
+
+
+2,scrollview
+Q1:scrollview 中所有的节点必须设置flex：1，但是有个问题，就是里面的具有scroll属性的view不能滚动了，比如webview
+
+3.参数传递
+简单是在创建一个自定义模块中，规定参数的类型，和名字，使用就是在引用自定义模块时在<>中，写好赋值
+参数类型规定
+		 propTypes: {
+    style: View.propTypes.style,
+    elementStyle: View.propTypes.style,
+  },
+参数命名：在使用处this.props.name
+
+
+
+4.viewpager
+	使用原生的viewpager 会出现一个问题就是给listview当头的时候会显示不出来，具体原因不太清楚，所以使用了第三方的react-native-viewpager": "^0.2.1”，可以实现自动播放，无限循环
+在工程目录下，运行react-native-viewpager —save    因为需要package.json中的版本号
+	•	dataSource: 提供页面数据, 
+	•	renderPage: 用于渲染页面视图, 
+	•	autoPlay: 为true 将自动播放, 
+	•	isLoop: 为true开启先循环, 
+	•	locked: 为true禁止触摸滚动, 
+	•	onChangePage: 页面变化的回调, 
+	·	renderPageIndicator: 渲染自定义的 ViewPager indicator.5.导航<Navigator    initialRoute={{name: '知乎', index: 0}}     configureScene={() => {    return Navigator.SceneConfigs.FadeAndroid;  }}    renderScene={this.RouteMapper}    />属性：initialRoute是用来初始化一些参数，比方说，name，index，这些都可以自定义configureScene    Navigator.SceneConfigs.FadeAndroid;这个是动画效果renderScene这个用于根据不同的参数指引展示哪个页面也就是activity，会将route参数，navigator对象，和一些其他的属性传递到这个方法中navigator对象可以传递给每个页面，这样也就是一个应用始终都使用的是一个导航 跳转：this.props.navigator.push({      name:post.title,      title:post.title,    index: 1,      slug:post.slug    }
+
+5.计数器
+Mixin属于ES5语法，对于ES6代码来说，无法直接使用Mixin。如果你的项目是用ES6代码编写，同时又使用了计时器，那么你只需铭记在unmount组件时清除（clearTimeout/clearInterval）所有用到的定时器，那么也可以实现和TimerMixin同样的效果。
+componentDidMount() {
+   this.timer = setTimeout(  () =>  {this.setState(  {splashed: true});   },    2000,);
+  }    
+  componentWillUnmount(){
+      this.timer&&clearTimeout(this.timer);
+  }    
+6.导航
+体系结构、设计原则
+一个rn应用或者一个rn模块，有且只有一个Navigator组件被定义。
+在rn首页定义Navigator组件。
+各个子页面统一使用首页定义的Navigator组件对象nav。
+不要使用Navigator的navigationBar，请自定义导航栏组件，例如Header组件。
+Navigator组件的定义和初始化
+在rn首页中的render方法中，定义一个Navigator组件，并做好以下几件事：
+	1	实现好通用的renderScene方法，
+	2	实现好android的物理返回按键
+	3	初始化真正的rn首页
+实现统一路由函数renderScene
+renderScene函数是Navigator组件的必填函数，入参是route对象和当前的nav对象，返回值是jsx。
+此函数的意思是根据传入的route，返回一个作为新页面的jsx，也就是说所有的路由算法都是在此函数中实现的。
+其中route对象是一个自定义的对象，是nav.push方法中传入的对象。
+{
+    name: 'page2', //名字用来做上下文判断和日志输出
+    page: <Page2 />, //jsx形式的page，作为新页面的jsx
+    // page: () => <Page2 />, //或者函数形式的page，此函数必须返回jsx，此jsx作为新页面的jsx
+}
+此函数设计相当于门面模式，此函数是路由的统一处理器，所有的页面跳转请求都会通过此函数的计算来获得具体的jsx页面。
+既然是统一的路由处理器，必然要求传入的route对象要满足统一的规则，否则无法实现统一的算法。
+
+
+
+注意：这种写法有个问题，加载首页的时候，无法传递nav对象，解决方式有两种，第一种就是主页面在index中初始化，跳转直接使用refs.nav跳转到第二个页面，同时传递nav对象 第二种就是，在renderScene将在将nav对象传递给首页的view中
+ref属性
+在jsx中设置ref＝’xxx’ 那么就可以在其他地方使用this.refs.xxx获得这个jsx的dom引用，就可以使用这个dom的自己的方法
+类似于浏览器中的document.getElementById(‘example')方法
+androd中使用注意事项
+ES6写法注意事项
+在es5中所有的方法和控件全部都bind过，但是在es6中我们需要手动bind
+在rowdata中
+在onpress中需要传递e也就是 onPress={e=>this.rowPressed(movie).bind(this)}
+如果不需要传值那么就只需要写onPress={this.rowPressed.bind(this)}
+如果不需要bind this那么就是onPress={e=>this.rowPressed(movie)}
+
