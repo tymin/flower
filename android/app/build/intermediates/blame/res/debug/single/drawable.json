@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/dark_message_empty.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/dark_message_empty.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_share.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_share.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_call.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_call.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/checkbox_on.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/checkbox_on.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/splash_bg.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/splash_bg.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/share_wechat.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/share_wechat.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/upomp_lthj_checkbox_unselect.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/upomp_lthj_checkbox_unselect.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/dark_menu_follow_highlight.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/dark_menu_follow_highlight.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/share_qzone.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/share_qzone.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_menu_white.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_menu_white.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_des.jpeg",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_des.jpeg"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_arrow.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_arrow.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/my_vancl_address.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/my_vancl_address.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_add.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_add.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/upomp_lthj_checkbox_select.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/upomp_lthj_checkbox_select.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/splash.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/splash.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_desci.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_desci.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/checkbox_normal.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/checkbox_normal.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_like_select.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_like_select.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/menu_night_highlight.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/menu_night_highlight.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_menu.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_menu.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_drawer.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_de.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_de.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/menu_download_highlight.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/menu_download_highlight.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/controller_menu_text.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/controller_menu_text.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_btn_share.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_btn_share.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_like_nomal.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_like_nomal.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/browser_share_22.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/browser_share_22.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/share_qq.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/share_qq.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/share_weibo.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/share_weibo.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_cart.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_cart.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/xh_setting.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/xh_setting.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/browser_share_2.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/browser_share_2.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_back.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_back.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/ic_seach.png",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/src/main/res/drawable/ic_seach.png"
+    },
+    {
+        "merged": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/cnmobi/RNFLOWER/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_colored_material.xml"
+    }
+]

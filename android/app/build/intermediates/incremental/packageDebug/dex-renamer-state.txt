@@ -1,0 +1,7 @@
+#Mon Jan 16 12:02:31 CST 2017
+base.0=/Users/cnmobi/RNFLOWER/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_97f51e726dddf675b58f74c44ae6e0868fbade9b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/cnmobi/RNFLOWER/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_90e8f83a3519da43321072caa452eebe8b955f8b/classes.dex
+base.1=/Users/cnmobi/RNFLOWER/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_90e8f83a3519da43321072caa452eebe8b955f8b
+file.0=/Users/cnmobi/RNFLOWER/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_97f51e726dddf675b58f74c44ae6e0868fbade9b/classes.dex
